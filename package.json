@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-docker-cicd-cloud",
+  "version": "1.0.0",
+  "description": "Full end to end DevOps project. From application to containerization, CI/CD, Testing, Cloud.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harisheoran/nodejs-docker-cicd-cloud.git"
+  },
+  "author": "Harish Sheoran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harisheoran/nodejs-docker-cicd-cloud/issues"
+  },
+  "homepage": "https://github.com/harisheoran/nodejs-docker-cicd-cloud#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
