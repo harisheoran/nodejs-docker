@@ -105,3 +105,8 @@ During writing Dockerfile, we wrote a command *COPY . .* which copy all files in
 ### Solution
 .dockerignore
 
+### Problem
+
+### Solution
+Bind Mount
+

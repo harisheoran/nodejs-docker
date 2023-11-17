@@ -1,0 +1,13 @@
+version: "3"
+services:
+  my-node-app:
+    build: .
+    volumes:
+      - ./:/app:ro
+      - /app/node_modules
+    #environment:
+    #  - PORT=3000
+    env_file:
+      - ./.env
+    ports:
+      - 5000:4000
