@@ -1,7 +1,7 @@
 {
   "name": "nodejs-docker-cicd-cloud",
   "version": "1.0.0",
-  "description": "Full end to end DevOps project. From application to containerization, CI/CD, Testing, Cloud.",
+  "description": "Full end to end DevOps project. Docker, CI/CD, Testing, Cloud.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

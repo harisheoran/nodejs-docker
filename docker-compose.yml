@@ -1,12 +1,8 @@
-version: "3"
+# Shared configs of production and development
+version: '3'
 services:
   my-node-app:
     build: .
-    volumes:
-      - ./:/app:ro
-      - /app/node_modules
-    #environment:
-    #  - PORT=3000
     env_file:
       - ./.env
     ports:
